@@ -1,5 +1,7 @@
 import requests
+
 from src.abstract_class import JobPlatformAPI
+
 
 class HHJobPlatform(JobPlatformAPI):
     def __init__(self, base_url="https://api.hh.ru/vacancies") -> None:

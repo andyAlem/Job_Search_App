@@ -7,6 +7,7 @@ authors = ["Andrej <andrej@mail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.32.3"
+requests-mock = "^1.12.1"
 
 [tool.poetry.dev-dependencies]
 
@@ -16,17 +17,13 @@ mypy = "^1.15.0"
 black = "^25.1.0"
 isort = "^6.0.1"
 
-
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
 pytest-cov = "^6.0.0"
+requests-mock = "^1.11.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
-
-[build-system]
-requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
@@ -55,5 +52,5 @@ exclude = '''
 '''
 
 [tool.isort]
-# максимальная длина строки
+# Максимальная длина строки
 line_length = 119
