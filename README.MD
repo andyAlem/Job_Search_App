@@ -29,3 +29,6 @@ isort = "^6.0.1"
 pytest = "^8.3.5"
 pytest-cov = "^6.0.0"
 requests-mock = "^1.11.0"
+
+https://drive.google.com/file/d/1BVRjq02dCHADlg5a7BZXETGe0Pu9e-ob/view?usp=sharing
+https://drive.google.com/file/d/1JFM9V2eMNvnbn9JpyrJAOZ6Je3VPR9z6/view?usp=sharing
